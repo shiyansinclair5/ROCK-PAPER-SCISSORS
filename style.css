@@ -11,15 +11,15 @@ button {
     padding: 15px 20px;
     background: lightskyblue;
     border-radius: 3px;
-    font-size: 24px;
+    font-size: 30px;
     border: none;
     text-transform: uppercase;
     letter-spacing: 1px;
     transition: .2s;
-  }
+     }
 
   button:hover {
-    background: rgb(164,255, 245);
+    background: rgb(144,255, 245);
   }
 
   button:active {
@@ -33,26 +33,26 @@ button {
   }
 
   p {
-    font-size: 25px;
+    font-size: 32px;
   }
   button {
       padding: 15px 20px;
       background: darkblue;
       border-radius: 3px;
-      font-size: 24px;
+      font-size: 18px;
       border: none;
       text-transform: uppercase;
       letter-spacing: 1px;
       transition: .2s;
-    }
+       }
 
     button:hover {
-      background: rgb(14,25, 08);
+      background: rgb(144,25, 08);
     }
 
     button:active {
       transform: scale(.96);
-      background: darkblue;
+      background: lightskyblue;
       outline: none;
     }
 
@@ -61,5 +61,5 @@ button {
     }
 
     p {
-      font-size: 15px;
+      font-size: 20px;
     }

@@ -10,7 +10,7 @@ function playRound() {
   let roundResult = "";
 
    do {
-     playerSelection = window.prompt("Enter one of the following: rock, paper, scissors.").toLowerCase();
+     playerSelection = window.prompt("Enter one of the following: Rock, Paper, Scissors.").toLowerCase();
   } while (playerSelection != "paper" && playerSelection != "rock" && playerSelection != "scissors" || playerSelection == "");
 
   computerSelection = computerPlay();
@@ -83,7 +83,7 @@ function game() {
     console.log("Tied round.");
   }
 
-  console.log("Player: " + playerPoints + "\n" + "Computer: " + computerPoints);
+console.log("Player: " + playerPoints + "\n" + "Computer: " + computerPoints) ;
 }
 
 // game();
